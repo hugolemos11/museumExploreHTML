@@ -9,7 +9,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    
+}
+
+.container{
+    display: flex;
+    padding-inline: 150px;
+    margin-top: 50px;
 }
 
 .imgLogo{
@@ -20,6 +25,20 @@ body{
     color: #023859;
     text-align: center;
     font-size: 24px;
-    font-style: normal;
+    font-weight: 700;
     margin: 0;
+}
+
+.title{
+    color: #023859;
+    text-align: start;
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+.text{
+    color: #545247;
+    text-align: start;
+    font-size: 18px;
+    font-weight:300;
 }
