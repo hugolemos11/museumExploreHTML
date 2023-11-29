@@ -1,20 +1,27 @@
 body{
+    margin: 0;
     background-color: #F2E6D0;
     font-family: 'Inria Sans', sans-serif;
 }
 
+.img{
+    width: 100%;
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block;
+}
 .headHome{
     height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    margin: 10px;
 }
 
 .container{
     display: flex;
     padding-inline: 150px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .imgLogo{
@@ -22,7 +29,6 @@ body{
 }
 
 .title{
-    color: #023859;
     text-align: start;
     font-size: 32px;
     padding-top: 100px;
@@ -34,3 +40,19 @@ body{
     font-size: 18px;
     font-weight:300;
 }
+
+.image-container {
+    background-color: #023859;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  .image-container img {
+    border-radius: 10px; 
+    margin: 10px; 
+    max-width: 100%; 
+    height: auto; 
+  }
