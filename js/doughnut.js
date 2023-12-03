@@ -28,15 +28,19 @@ var config = {
         }]
     },
     options: {
+
+        
+        responsive: false,
         plugins: {
             legend: {
-                position: 'top',
+                position: 'right',
             },
             footer: {
                 text: 'Texto abaixo do gráfico'
             }
 
         }
+
     }
 };
 

@@ -13,6 +13,7 @@ var config = {
         }]
     },
     options: {
+        responsive: false,
         scales: {
             y: {
                 beginAtZero: true
