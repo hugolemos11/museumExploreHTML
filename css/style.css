@@ -1,3 +1,10 @@
+body, html {   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     background-color: #F2E6D0;
@@ -9,6 +16,7 @@ body{
     height: auto; /* Mantém a proporção original da imagem */
     display: block;
 }
+
 .headHome{
     height: 90px;
     display: flex;
@@ -17,12 +25,12 @@ body{
     margin: 10px;
 }
 
-.container{
+/*.container{
     display: flex;
     padding-inline: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
-}
+}*/
 
 .imgLogo{
     margin-right: 500px;
@@ -50,11 +58,36 @@ body{
     padding: 100px;
   }
 
-  .image-container img {
+.image-container img {
     border-radius: 10px; 
     margin: 10px; 
     max-width: 100%; 
     height: 100px;
     width: 200px;
-     
-  }
+}
+
+.mlr-100 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.header-background-auth {
+    background-color: #023859;
+}
+
+.nav-link {
+    color: #F2E6D0;
+}
+.home-page .nav-link {
+    color: #023859;
+}
