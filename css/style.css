@@ -56,7 +56,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 100px;
-  }
+}
 
 .image-container img {
     border-radius: 10px; 
@@ -90,4 +90,40 @@ body{
 }
 .home-page .nav-link {
     color: #023859;
+}
+
+
+.name {
+    margin: -100px;
+    margin-right: 450px;
+    color: white;
+}
+
+.header {
+    color: white;
+}
+
+.headHomeBlack{
+    height: 141px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: #023859;
+}
+
+.button {
+    position: relative;
+    width: 224px;
+    height: 40px;
+    background-color: #023859;
+    border-radius: 8px;
+    color: white;
+}
+
+#card-left {
+    margin: 10px;
+    background-color: #A68263;
+    width: 18rem;
 }
