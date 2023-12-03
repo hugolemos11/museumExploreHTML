@@ -12,17 +12,21 @@
     <link rel="stylesheet" href="js/bootstrap.min.js">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="home-page"> <!-- Usa classe home-page para alterar as cores dos <a>'s no header-->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <div class="d-flex align-items-center ms-5 mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-    <div class="headHome">
-        <img class="imgLogo" src="image/logo_escura.png" alt="Logo">
-        <a >Home</a>
-        <a href="#sobreAplicacao">Sobre nós</a>
-        <a href="#museuParceiros">Museus Parceiros</a>
-        <img src="image/perfil.png" alt="perfil">
-    </div>
-
-    <div>
+          <img src="image/logo_escura.png" alt="logo">
+        </div>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item align-items-center d-flex"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item align-items-center d-flex"><a href="#sobreAplicacao" class="nav-link">Sobre Nós</a></li>
+          <li class="nav-item align-items-center d-flex"><a href="#museuParceiros" class="nav-link">Museus Parceiros</a></li>
+          <li class="nav-item align-items-center d-flex me-5"><a href="#" class="nav-link"><img src="image/perfil.png" alt=""></a></li>
+        </ul>
+    </header>
+    <div id="home">
         <img class="img" src="image/imgBackground.png" alt="">
     </div>
 
