@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="home-page"> <!-- Usa classe home-page para alterar as cores dos <a>'s no header-->
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <div class="d-flex align-items-center ms-5 mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <div class="d-flex align-items-center ms-5 mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-          <img src="image/logo_escura.png" alt="logo">
-        </div>
-  
-        <ul class="nav nav-pills">
-          <li class="nav-item align-items-center d-flex"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item align-items-center d-flex"><a href="#sobreAplicacao" class="nav-link">Sobre Nós</a></li>
-          <li class="nav-item align-items-center d-flex"><a href="#museuParceiros" class="nav-link">Museus Parceiros</a></li>
-          <li class="nav-item align-items-center d-flex me-5"><a href="#" class="nav-link"><img src="image/perfil.png" alt=""></a></li>
-        </ul>
-    </header>
-    <div id="home">
-        <img class="img" src="image/imgBackground.png" alt="">
+      <img src="image/logo_escura.png" alt="logo">
     </div>
 
-    <div class="container" id="sobreAplicacao">
-        <div style="width: 1300px;">
-            <b class="title" style="color: #023859;">Sobre a aplicação</b>
-            <p class="text">"Museum Explore" é uma aplicação móvel inovadora que oferece aos entusiastas da arte uma experiência única, apresentando obras de vários museus em uma plataforma integrada. Os utilizadores podem explorar uma vasta coleção de obras, dentre o acervo do museu visitado, e adquirir bilhetes para os museus de forma conveniente através do dispositivo móvel. 
-                <br>Para enriquecer a visita, introduzimos a funcionalidade de QR Code junto às obras nos museus parceiros. Cada obra é acompanhada por um QR Code exclusivo que, ao ser escaneado, redireciona os utilizadores para a página correspondente na aplicação. Isso proporciona uma experiência digital enriquecedora, com informações detalhadas, curiosidades sobre a obra, complementando a visita ao museu. 
-            </p>
-        </div>
-        <div><img src="image/imgDownload.png" alt="" class="img-fluid" style="max-width: 50%;"></div>
+    <ul class="nav nav-pills">
+      <li class="nav-item align-items-center d-flex"><a href="#home" class="nav-link">Home</a></li>
+      <li class="nav-item align-items-center d-flex"><a href="#sobreAplicacao" class="nav-link">Sobre Nós</a></li>
+      <li class="nav-item align-items-center d-flex"><a href="#museuParceiros" class="nav-link">Museus Parceiros</a>
+      </li>
+      <li class="nav-item align-items-center d-flex me-5"><a href="#" class="nav-link"><img src="image/perfil.png"
+            alt=""></a></li>
+    </ul>
+  </header>
+  <div id="home">
+    <img class="img" src="image/imgBackground.png" alt="">
+  </div>
+
+  <div class="container" id="sobreAplicacao">
+    <div style="width: 1300px;">
+      <b class="title" style="color: #023859;">Sobre a aplicação</b>
+      <p class="text">"Museum Explore" é uma aplicação móvel inovadora que oferece aos entusiastas da arte uma
+        experiência única, apresentando obras de vários museus em uma plataforma integrada. Os utilizadores podem
+        explorar uma vasta coleção de obras, dentre o acervo do museu visitado, e adquirir bilhetes para os museus de
+        forma conveniente através do dispositivo móvel. 
+        <br>Para enriquecer a visita, introduzimos a funcionalidade de QR Code junto às obras nos museus parceiros. Cada
+        obra é acompanhada por um QR Code exclusivo que, ao ser escaneado, redireciona os utilizadores para a página
+        correspondente na aplicação. Isso proporciona uma experiência digital enriquecedora, com informações detalhadas,
+        curiosidades sobre a obra, complementando a visita ao museu. 
+      </p>
+    </div>
+    <div><img src="image/imgDownload.png" alt="" class="img-fluid" style="max-width: 50%;"></div>
+  </div>
+
+  <div id="museuParceiros" class="image-container">
+    <div>
+      <b class="title" style="color: aliceblue; margin: 20px;">Museus Parceiros</b>
     </div>
 
-    <div id="museuParceiros" class="image-container">
-        <div>
-            <b class="title" style="color: aliceblue; margin: 20px;">Museus Parceiros</b>
-        </div>
-        <table class="table table-responsive, row">
-          <tr>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>    
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-            <td><img src="image/museu1.jpg" alt="Imagem 1"></td>
-          </tr>
-          
-        </table>
-        
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="scroll-container">
+            <div class="scroll-content">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+              <img src="image/museu1.jpg" alt="Imagem 1">
+            </div>
+          </div>
         </div>
       </div>
-      
+    </div>
+
+
+
+  </div>
+  </div>
+
 
 </body>
+
 </html>

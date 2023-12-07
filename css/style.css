@@ -25,13 +25,6 @@ body{
     margin: 10px;
 }
 
-/*.container{
-    display: flex;
-    padding-inline: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}*/
-
 .imgLogo{
     margin-right: 500px;
 }
@@ -134,4 +127,13 @@ body{
     margin-right: 4%; /* Adicione uma margem entre os gráficos */
     margin-left: 4%;
 
+}
+
+.scroll-container{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll-content{
+    display: inline-blocks;
 }
